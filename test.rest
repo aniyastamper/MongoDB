@@ -1,0 +1,22 @@
+### GET random Joke
+###
+GET http://localhost:3000/api/v1/random
+
+### Want to  add a new joke? ,
+### Must tell what type of data is being added
+### Must properlly outline the objects value
+### This will be the refrence point for the admin page
+
+###GET JOKE BY ID
+GET http://localhost:3000/api/v1/joke/664507e82b1899a4851a9a5f
+
+### ADD NEW JOKE 
+
+POST http://localhost:3000/api/v1/new 
+Content-Type: application/json 
+
+{
+    "joke":"How does a penguin build its house?", 
+    "punchline":" Igloos it together!"
+}
+

@@ -1,0 +1,19 @@
+{
+  "name": "joke-api-2",
+  "version": "1.0.0",
+  "description": "Week 11",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Starting",
+    "new"
+  ],
+  "author": "Aniya Stamper",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.6.1"
+  }
+}
